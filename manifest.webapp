@@ -1,0 +1,15 @@
+{
+  "name": "InstaSearch",
+  "description": "Descubra o que está acontecendo em qualquer lugar",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/app-icons/icon-16.png",
+    "48": "/app-icons/icon-48.png",
+    "128": "/app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Logos Comunicação Soluções Tecnológicas",
+    "url": "http://your-homepage-here.org"
+  },
+  "default_locale": "pt"
+}

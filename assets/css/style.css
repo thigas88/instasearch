@@ -1,0 +1,76 @@
+body {
+  background: #e3e8ec url(../img/tile.png) repeat 50% 0;
+}
+
+h1{font-family: 'Roboto', sans-serif; text-align: center; font-size: 42px; margin: 100px 0 10px 0; text-rendering: optimizeLegibility;}
+h1 > a, h1 > a:hover{color: #000; text-decoration: none;}
+
+#search {
+  margin: 10px auto;
+  text-align: center;
+}
+
+#photos-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.photo .avatar {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  position: absolute;
+  bottom: 11px;
+  right: 8px;
+  background: white;
+}
+
+.photo  {
+  margin-bottom: 20px;
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.photo .heart {
+  height: 16px;
+  position: absolute;
+  left: 13px;
+  bottom: 16px;
+  padding: 0 5px 0 22px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  background: white url('../img/fav.png') no-repeat 2px 0;
+}
+
+.paginate {
+  display: block;
+  clear: both;
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px 0;
+  height: 100px;
+}
+
+.hashs{
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.hashs a{
+  padding: 5px;
+}
+
+@media(max-width:979px){
+  .navbar-fixed-top{position:fixed;}
+}
